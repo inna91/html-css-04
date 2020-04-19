@@ -222,6 +222,10 @@ img {
   margin-bottom: 81px;
 }
 
+.news-list-item img {
+  margin-bottom: 14px;
+}
+
 .news-list-item:nth-child(3) {
   margin-right: 0;
 }
@@ -234,6 +238,9 @@ img {
   color: rgb(85, 82, 82);
   font-weight: 600;
   line-height: 26px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 33px;
 }
 
 .news-list-item h3::after {
@@ -243,6 +250,7 @@ img {
   background-color: rgb(78, 198, 171);
   content: "";
   margin-top: 11px;
+  margin-bottom: 29px;
 }
 
 
@@ -252,6 +260,8 @@ img {
   color: rgb(85, 82, 82);
   font-weight: 400;
   line-height: 26px;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 .button {
