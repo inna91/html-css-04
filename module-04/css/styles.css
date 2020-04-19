@@ -1,0 +1,272 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.main-nav {
+  padding-top: 43px;
+  padding-bottom: 105px;
+}
+
+.site-logo {
+  float: left;
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 30px;
+}
+
+.site-logo::first-letter {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  color: rgb(26, 188, 156);
+  font-weight: 900;
+}
+
+
+.site-logo a {
+  color: rgb(85, 82, 82);
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 32px;
+}
+
+.main-menu {
+  float: right;
+}
+
+.main-menu {
+  width: 475px;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  list-style: none;
+}
+
+.main-menu li {
+  float: left;
+}
+
+.main-menu li {
+  margin-right: 30px;
+}
+
+.main-menu li:last-child {
+  margin-right: 0;
+}
+
+.main-menu a {
+  color: rgb(15, 1, 1);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 11px;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  color: rgb(26, 188, 156);
+}
+
+.products-title {
+  margin: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 48px;
+  color: rgb(81, 81, 81);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 32px;
+  margin-bottom: 131px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h2::after {
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: rgb(26, 188, 156);
+  content: "";
+  margin: 0 auto;
+  margin-top: 32px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.products-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products-list-item:hover .feature-product {
+  background-color: #1abc9c;
+}
+
+.products-list-item {
+  width: 255px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(233, 240, 253);
+}
+
+.products-list-item:nth-child(4n) {
+  margin-bottom: 105px;
+}
+
+
+.products-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.products-list li {
+  float: left;
+}
+
+.products-list-item h3 a {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 32px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.feature-product {
+  background-color: rgb(50, 50, 50);
+}
+
+.product-name {
+  float: left;
+}
+
+.product-name {
+  margin: 0;
+  padding: 0;
+  padding-left: 13px;
+}
+
+.price {
+  float: right;
+}
+
+.price {
+  margin: 0;
+  padding: 0 12px;
+}
+
+
+.products-list-item p {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.price {
+  background-color: rgb(255, 255, 255, 0.4)
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-title {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 48px;
+  color: rgb(85, 82, 82);
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 32px;
+  margin: 0;
+  margin-bottom: 120px;
+}
+
+.news-list li {
+  float: left;
+}
+
+
+.news-list-item {
+  width: 350px;
+  margin-right: 30px;
+  margin-bottom: 81px;
+}
+
+.news-list-item:nth-child(3) {
+  margin-right: 0;
+}
+
+
+
+.news-list-item h3 {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 18px;
+  color: rgb(85, 82, 82);
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.news-list-item h3::after {
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: rgb(78, 198, 171);
+  content: "";
+  margin-top: 11px;
+}
+
+
+.news-list-item p {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  color: rgb(85, 82, 82);
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.button {
+  display: block;
+  width: 160px;
+  height: 51px;
+  text-align: center;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  background-color: rgb(78, 198, 171);
+  text-decoration: none;
+  padding-top: 13px;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
